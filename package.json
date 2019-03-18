@@ -1,0 +1,14 @@
+{
+  "name": "netlify-function-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-lambda": "^1.4.3"
+  },
+  "scripts": {
+    "dev": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  }
+}
